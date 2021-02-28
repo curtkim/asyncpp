@@ -3,6 +3,8 @@
 #ifndef ASYNC_SEQUENCER_HPP
 #define ASYNC_SEQUENCER_HPP
 
+#include <memory>
+
 namespace async {
 
 // This value can be asserted to equal zero if there's no pending callbacks.  Otherwise,
